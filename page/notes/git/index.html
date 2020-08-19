@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>git常用操作 | 02.run</title>
+    <meta name="generator" content="VuePress 1.5.2">
+    <link rel="icon" href="/blog/logo.jpg">
+    <meta name="description" content="笔记">
+    <link rel="preload" href="/blog/assets/css/0.styles.e42d586a.css" as="style"><link rel="preload" href="/blog/assets/js/app.bc095531.js" as="script"><link rel="preload" href="/blog/assets/js/2.a71f7747.js" as="script"><link rel="preload" href="/blog/assets/js/12.d61899a6.js" as="script"><link rel="prefetch" href="/blog/assets/js/10.01c5f20f.js"><link rel="prefetch" href="/blog/assets/js/11.c47407f8.js"><link rel="prefetch" href="/blog/assets/js/13.dcb20973.js"><link rel="prefetch" href="/blog/assets/js/14.74950ab5.js"><link rel="prefetch" href="/blog/assets/js/15.9b748550.js"><link rel="prefetch" href="/blog/assets/js/16.7f13210f.js"><link rel="prefetch" href="/blog/assets/js/17.092c9440.js"><link rel="prefetch" href="/blog/assets/js/18.5db2f33b.js"><link rel="prefetch" href="/blog/assets/js/19.600abe54.js"><link rel="prefetch" href="/blog/assets/js/20.29173d9e.js"><link rel="prefetch" href="/blog/assets/js/21.1250d05d.js"><link rel="prefetch" href="/blog/assets/js/22.07d6c549.js"><link rel="prefetch" href="/blog/assets/js/23.cfa4c8ea.js"><link rel="prefetch" href="/blog/assets/js/24.e95db6a9.js"><link rel="prefetch" href="/blog/assets/js/3.a16633fc.js"><link rel="prefetch" href="/blog/assets/js/4.e92e2dc1.js"><link rel="prefetch" href="/blog/assets/js/5.cc1c3863.js"><link rel="prefetch" href="/blog/assets/js/6.05f8776a.js"><link rel="prefetch" href="/blog/assets/js/7.fae65196.js"><link rel="prefetch" href="/blog/assets/js/8.b213e26b.js"><link rel="prefetch" href="/blog/assets/js/9.cd870879.js">
+    <link rel="stylesheet" href="/blog/assets/css/0.styles.e42d586a.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/blog/" class="home-link router-link-active"><!----> <span class="site-name">02.run</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/blog/page/notes/" class="nav-link router-link-active">
+  笔记
+</a></div><div class="nav-item"><a href="/blog/page/books/" class="nav-link">
+  Book
+</a></div><div class="nav-item"><a href="/blog/page/style-guide/" class="nav-link">
+  StyleGuide
+</a></div><div class="nav-item"><a href="http://obkoro1.com/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  博客
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="GitHub" class="dropdown-title"><span class="title">GitHub</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://github.com/OBKoro1" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub地址
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-item"><!----> <a href="https://github.com/OBKoro1/Brush_algorithm" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  算法仓库
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/blog/page/notes/" class="nav-link router-link-active">
+  笔记
+</a></div><div class="nav-item"><a href="/blog/page/books/" class="nav-link">
+  Book
+</a></div><div class="nav-item"><a href="/blog/page/style-guide/" class="nav-link">
+  StyleGuide
+</a></div><div class="nav-item"><a href="http://obkoro1.com/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  博客
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="GitHub" class="dropdown-title"><span class="title">GitHub</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://github.com/OBKoro1" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub地址
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-item"><!----> <a href="https://github.com/OBKoro1/Brush_algorithm" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  算法仓库
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/blog/page/notes/" aria-current="page" class="sidebar-link">notes</a></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>vue</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>css</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>js</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>git</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/blog/page/notes/git/" aria-current="page" class="active sidebar-link">git常用操作</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/blog/page/notes/git/#创建ssh" class="sidebar-link">创建ssh</a></li><li class="sidebar-sub-header"><a href="/blog/page/notes/git/#如何在远程某个分支的基础上新建分支" class="sidebar-link">如何在远程某个分支的基础上新建分支</a></li><li class="sidebar-sub-header"><a href="/blog/page/notes/git/#如果远程已有分支，本地没有该分支" class="sidebar-link">如果远程已有分支，本地没有该分支</a></li><li class="sidebar-sub-header"><a href="/blog/page/notes/git/#git代码写错分支" class="sidebar-link">git代码写错分支</a></li><li class="sidebar-sub-header"><a href="/blog/page/notes/git/#git代码回滚" class="sidebar-link">git代码回滚</a></li><li class="sidebar-sub-header"><a href="/blog/page/notes/git/#远程代码回滚" class="sidebar-link">远程代码回滚</a></li><li class="sidebar-sub-header"><a href="/blog/page/notes/git/#查看远程地址" class="sidebar-link">查看远程地址</a></li></ul></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Prettier</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>scss</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>vant</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>md</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Chrome 插件</span> <span class="arrow right"></span></p> <!----></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="git常用操作"><a href="#git常用操作" class="header-anchor">#</a> git常用操作</h1> <h2 id="创建ssh"><a href="#创建ssh" class="header-anchor">#</a> 创建ssh</h2> <p>ssh-keygen -t rsa -C &quot;one@gmail.com&quot;</p> <blockquote><p>这里得rsa是文件名</p></blockquote> <h2 id="如何在远程某个分支的基础上新建分支"><a href="#如何在远程某个分支的基础上新建分支" class="header-anchor">#</a> 如何在远程某个分支的基础上新建分支</h2> <ol><li>git branch newBranch //新建本地分支</li> <li>git checkout newBranch //本地切换到自己的分支</li> <li>git pull origin xxxxBranch //从远程目标分支copy代码</li> <li>git push origin newBranch //将本地新建的分支同步到服务器</li> <li>git branch --set-upstream-to=origin/newbranch newbranch . //本地分支和远程分支建立追踪</li></ol> <h2 id="如果远程已有分支，本地没有该分支"><a href="#如果远程已有分支，本地没有该分支" class="header-anchor">#</a> 如果远程已有分支，本地没有该分支</h2> <p>git checkout --track origin/branch_name</p> <h2 id="git代码写错分支"><a href="#git代码写错分支" class="header-anchor">#</a> git代码写错分支</h2> <h3 id="尚未提交到错误的分支"><a href="#尚未提交到错误的分支" class="header-anchor">#</a> 尚未提交到错误的分支</h3> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code>// <span class="token number">1</span>. 将修改的代码暂存到stash
+<span class="token function">git</span> stash
+
+// <span class="token number">2</span>. 切换到正确的分支
+<span class="token function">git</span> checkout targetbranch 
+
+// <span class="token number">3</span>.从stash中取出暂存的代码修改
+<span class="token function">git</span> stash pop
+<span class="token function">git</span> <span class="token function">add</span> <span class="token builtin class-name">.</span>
+<span class="token function">git</span> commit -m <span class="token string">'xxx'</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><h2 id="git代码回滚"><a href="#git代码回滚" class="header-anchor">#</a> git代码回滚</h2> <h3 id="本地代码库回滚"><a href="#本地代码库回滚" class="header-anchor">#</a> 本地代码库回滚</h3> <p>git reset --hard commit-id :回滚到commit-id，讲commit-id之后提交的commit都去除
+git reset --hard HEAD~3：将最近3次的提交回滚</p> <h2 id="远程代码回滚"><a href="#远程代码回滚" class="header-anchor">#</a> 远程代码回滚</h2> <p>这个是重点要说的内容，过程比本地回滚要复杂</p> <p>应用场景：自动部署系统发布后发现问题，需要回滚到某一个commit，再重新发布</p> <p>原理：先将本地分支退回到某个commit，删除远程分支，再重新push本地分支</p> <p>操作步骤：</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>1、git checkout master
+
+2、git pull
+
+3、git branch master_backup //备份一下这个分支当前的情况
+
+4、git reset --hard the_commit_id //把master本地回滚到the_commit_id
+
+5、git push origin :master //删除远程 master
+
+6、git push origin master //用回滚后的本地分支重新建立远程分支
+
+7、git branch -d master_backup //如果前面都成功了，删除这个备份分支
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br></div></div><h2 id="查看远程地址"><a href="#查看远程地址" class="header-anchor">#</a> 查看远程地址</h2> <p>git remote -v</p></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/blog/page/notes/js/" class="prev">
+        基础
+      </a></span> <span class="next"><a href="/blog/page/notes/prettier/">
+        Prettier
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/blog/assets/js/app.bc095531.js" defer></script><script src="/blog/assets/js/2.a71f7747.js" defer></script><script src="/blog/assets/js/12.d61899a6.js" defer></script>
+  </body>
+</html>
