@@ -1,0 +1,88 @@
+.my-content{
+  padding: 0 .5rem;
+}
+
+.user {
+  display: flex;
+  margin-top: .5rem;
+  align-items: center;
+}
+.user img {
+  width: 3rem;
+  height: 3rem;
+}
+.user-login{
+  padding-left: .3rem;
+  font-size: .8rem;
+}
+.user-btns span{
+  padding-right: .2rem;
+}
+.user-login__tip {
+  color: #999;
+  font-size: .6rem;
+  margin-top: .1rem;
+}
+.my-list {
+  margin-top: .5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: .8rem;
+  background: #fff;
+  border-radius: .5rem;
+  text-align: center;
+}
+.my-list p {
+  margin: 0;
+}
+.my-list p:last-of-type {
+  color: #999;
+  font-size: .7rem;
+}
+.my-item span.iconfont {
+  color: #ff5000;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.my-item {
+  position: relative;
+}
+.my-item .tip{
+  position: absolute;
+  top: 0;
+  font-size: .6rem;
+  line-height: .6rem;
+  padding: .09em .2rem;
+  text-align: center;
+  border: 1px solid #ff5000;
+  color: #ff5000;
+  border-radius: 50%;
+}
+.my-title {
+  font-size: .8rem;
+  font-weight: bold;
+}
+.list-block {
+  margin: .5rem 0;
+  font-size: .7rem;
+}
+.noLogin .user-name {
+  display: none;
+}
+.noLogin .code {
+  display: none;
+}
+.code {
+  position: absolute;
+  top: .9rem;
+  right: .5rem;
+  font-size: .8rem;
+}
+.code p {
+  margin: 0;
+}
+.code-num {
+  color: #999;
+  font-size: .6rem;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>首页</title>
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+  <!-- <link rel="shortcut icon" href="/favicon.ico"> -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <link rel="stylesheet" href="./dist/css/iconfont.css">
+  <link rel="stylesheet" href="./dist/css/common.css">
+  <link rel="stylesheet" href="./dist/css/sm.min.css">
+  <link rel="stylesheet" href="./dist/css/good-detail.css">
+</head>
+
+<body>
+  <div class="page-group">
+    <div class="page page-current">
+      <header class="bar bar-nav">
+        <button class="button button-link button-nav pull-left" onclick="window.location.href = 'index.html'">
+          <span class="icon icon-left"></span>
+          返回
+        </button>
+        <button class="button button-link button-nav pull-right">
+          下一步
+          <span class="icon icon-right"></span>
+        </button>
+        <h1 class="title">小生中精英班</h1>
+      </header>
+      <div class="content">
+        <img src="./dist/images/good1.jpg" alt="">
+        <img src="./dist/images/good2.jpg" alt="">
+        <img src="./dist/images/good3.jpg" alt="">
+        <img src="./dist/images/good4.jpg" alt="">
+      </div>
+      <nav class="bar bar-tab toolbar">
+        <div class="money"><span>￥</span>386元</div>
+        <div class="flex">
+          <span class="star iconfont icon-shoucang"> 收藏</span>
+          <a class="button button-fill button-round button-primary">立即购买</a>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+  <script src='./dist/js/jquery-3.5.1.min.js'></script>
+  <script src='./dist/js/sm.js'></script>
+  <script>
+    // 收藏选中效果
+    $('.star').click(function () {
+      if ($(this).hasClass('active')) {
+        $(this).removeClass('icon-collection-b').addClass('icon-shoucang')
+        $(this).removeClass('active')
+      } else {
+        $(this).addClass('icon-collection-b').removeClass('icon-shoucang')
+        $(this).addClass('active')
+      }
+    })
+  </script>
+</body>
+
+</html>

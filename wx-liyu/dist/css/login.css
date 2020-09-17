@@ -1,0 +1,14 @@
+.toolbar {
+  display: flex;
+  margin-top: .5rem;
+  
+  font-size: .7rem;
+}
+.toolbar a {
+  color: #999;
+  margin-right: .5rem;
+}
+
+.list-block input[type=text], .list-block input[type=password], .list-block input[type=email], .list-block input[type=tel], .list-block input[type=url], .list-block input[type=date], .list-block input[type=datetime-local], .list-block input[type=time], .list-block input[type=number], .list-block input[type=search], .list-block select, .list-block textarea{
+  font-size: .7rem;
+}

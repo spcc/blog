@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>首页</title>
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+  <!-- <link rel="shortcut icon" href="/favicon.ico"> -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <link rel="stylesheet" href="./dist/css/common.css">
+  <link rel="stylesheet" href="./dist/css/sm.min.css">
+  <link rel="stylesheet" href="./dist/css/data.css">
+</head>
+
+<body>
+  <div class="page-group">
+    <div class="page page-current">
+      <header class="bar bar-nav">
+        <button class="button button-link button-nav pull-left" onclick="window.open('my-family.html','_self')">
+          <span class="icon icon-left"></span>
+          返回
+        </button>
+        <h1 class="title">添加/编辑家长信息</h1>
+      </header>
+      <div class="content data-content-detail">
+        <div class="list-block">
+          <ul>
+            <!-- Text inputs -->
+            <li>
+              <div class="item-content">
+                <div class="item-media"><i class="icon icon-form-name"></i></div>
+                <div class="item-inner">
+                  <div class="item-title label">关系</div>
+                  <div class="item-input">
+                    <input type="text" placeholder="关系">
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="item-content">
+                <div class="item-media"><i class="icon icon-form-email"></i></div>
+                <div class="item-inner">
+                  <div class="item-title label">姓名</div>
+                  <div class="item-input">
+                    <input type="email" placeholder="姓名">
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="item-content">
+                <div class="item-media"><i class="icon icon-form-gender"></i></div>
+                <div class="item-inner">
+                  <div class="item-title label">性别</div>
+                  <div class="item-input">
+                    <label><input type="radio" name="sex" value="男"> 男</label>
+                    <label><input type="radio" name="sex" value="女"> 女</label>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="item-content">
+                <div class="item-media"><i class="icon icon-form-email"></i></div>
+                <div class="item-inner">
+                  <div class="item-title label">手机号</div>
+                  <div class="item-input">
+                    <input type="email" placeholder="手机号">
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <a href="#" class="button button-warning mt5">保存</a>
+      </div>
+    </div>
+  </div>
+
+  <script src='./dist/js/jquery-3.5.1.min.js'></script>
+  <script src='./dist/js/sm.js'></script>
+</body>
+
+</html>

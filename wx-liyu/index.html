@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>首页</title>
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+  <!-- <link rel="shortcut icon" href="/favicon.ico"> -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <link rel="stylesheet" href="./dist/css/common.css">
+  <link rel="stylesheet" href="./dist/css/sm.min.css">
+  <link rel="stylesheet" href="./dist/css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="./dist/css/home.css">
+</head>
+
+<body>
+  <div class="page-group">
+    <div class="page page-current">
+      <nav class="bar bar-tab">
+        <a class="tab-item active" href="index.html">
+          <span class="icon icon-home"></span>
+          <span class="tab-label">首页</span>
+        </a>
+        <a class="tab-item" href="data.html">
+          <span class="icon icon-star"></span>
+          <span class="tab-label">数据中心</span>
+        </a>
+        <a class="tab-item" href="my.html">
+          <span class="icon icon-me"></span>
+          <span class="tab-label">我的</span>
+        </a>
+      </nav>
+      <div class="content">
+        <!-- swiper -->
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide" onclick="window.location.href = 'good-detail.html'"><img
+                src="http://resources.jsmo.xin/templates/upload/22017/202007/1596171671973.jpg" alt=""></div>
+            <div class="swiper-slide" onclick="window.location.href = 'good-detail.html'"><img
+                src="http://resources.jsmo.xin/templates/upload/22017/202008/1597028567695.jpg" alt=""></div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <!-- list -->
+        <div class="card-list">
+          <div class="card demo-card-header-pic" onclick="window.location.href = 'good-detail.html'">
+            <div valign="bottom" class="card-header color-white no-border no-padding">
+              <img class='card-cover' src="http://resources.jsmo.xin/templates/upload/8390/201804/1523609629647.png"
+                alt="">
+            </div>
+            <div class="card-content">
+              <div class="card-content-inner">
+                <p class="omit">小升中精品班</p>
+                <div class="card-box">
+                  <span>188/次</span>
+                  <span>220人购买</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card demo-card-header-pic" onclick="window.location.href = 'good-detail.html'">
+            <div valign="bottom" class="card-header color-white no-border no-padding">
+              <img class='card-cover' src="http://resources.jsmo.xin/templates/upload/8390/201804/1523609648394.png"
+                alt="">
+            </div>
+            <div class="card-content">
+              <div class="card-content-inner">
+                <p class="omit">21天魔鬼训练营</p>
+                <div class="card-box">
+                  <span>188/次</span>
+                  <span>220人购买</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-list">
+          <div class="card demo-card-header-pic" onclick="window.location.href = 'good-detail.html'">
+            <div valign="bottom" class="card-header color-white no-border no-padding">
+              <img class='card-cover' src="http://resources.jsmo.xin/templates/upload/8390/201804/1523609663417.png"
+                alt="">
+            </div>
+            <div class="card-content">
+              <div class="card-content-inner">
+                <p class="omit">名师一对一</p>
+                <div class="card-box">
+                  <span>888/次</span>
+                  <span>220人购买</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card demo-card-header-pic" onclick="window.location.href = 'good-detail.html'">
+            <div valign="bottom" class="card-header color-white no-border no-padding">
+              <img class='card-cover' src="http://resources.jsmo.xin/templates/upload/8390/201804/1523609629647.png"
+                alt="">
+            </div>
+            <div class="card-content">
+              <div class="card-content-inner">
+                <p class="omit">名师一对一</p>
+                <div class="card-box">
+                  <span>888/次</span>
+                  <span>220人购买</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-list">
+          <div class="card demo-card-header-pic" onclick="window.location.href = 'good-detail.html'">
+            <div valign="bottom" class="card-header color-white no-border no-padding">
+              <img class='card-cover' src="http://resources.jsmo.xin/templates/upload/8390/201804/1523609663417.png"
+                alt="">
+            </div>
+            <div class="card-content">
+              <div class="card-content-inner">
+                <p class="omit">名师一对一</p>
+                <div class="card-box">
+                  <span>888/次</span>
+                  <span>220人购买</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src='./dist/js/jquery-3.5.1.min.js'></script>
+  <script src='./dist/js/sm.js'></script>
+  <script src="./dist/js/swiper-bundle.min.js"></script>
+  <script>
+    $(function () {
+      var swiper = new Swiper('.swiper-container', {
+        pagination: {
+          el: '.swiper-pagination',
+        },
+        //observer: true,//修改swiper自己或子元素时，自动初始化swiper
+        //    observeParents: true,//修改swiper的父元素时，自动初始化swiper
+      });
+    });
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.omit {
+  width: 100%; /* 注意宽度是必须的 */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+img {
+  vertical-align: top;
+}
+.flex {
+  display: flex;
+}
+.ac {
+  align-items: center;
+}
+.mt3{
+  margin-top: .5rem!important;
+}
+.mt5{
+  margin-top: .9rem!important;
+}
+.mb5 {
+  margin-bottom: .9rem!important;
+}
+
+.button-warning {
+  color: #fff!important;
+  background: #ff5000!important;
+}
+.list-block{
+  margin: 0 0;
+  font-size: .7rem;
+}
+.button {
+  border: 1px solid #0894ec;
+  color: #0894ec;
+}
+.buttons-tab .button.active,
+.buttons-row .button,
+.icon-edit {
+  color: #ff5000!important;
+  border-color: #ff5000!important;
+}
+.bar .button-link,
+.bar-tab .tab-item.active,
+.bar-tab .tab-item:active {
+  color: #ff5000!important;
+}
+:root {
+  --swiper-theme-color: #ff5000!important;
+}

@@ -1,0 +1,72 @@
+{
+  "id": "2070878",
+  "name": "里昂教育",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "5306518",
+      "name": "未完成",
+      "font_class": "weiwancheng",
+      "unicode": "e663",
+      "unicode_decimal": 58979
+    },
+    {
+      "icon_id": "9029219",
+      "name": "已完成",
+      "font_class": "yiwancheng",
+      "unicode": "e63f",
+      "unicode_decimal": 58943
+    },
+    {
+      "icon_id": "5912778",
+      "name": "积分",
+      "font_class": "jifen",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "6544517",
+      "name": "收藏",
+      "font_class": "shoucang1",
+      "unicode": "e6ff",
+      "unicode_decimal": 59135
+    },
+    {
+      "icon_id": "8666844",
+      "name": "优惠券",
+      "font_class": "youhuiquan",
+      "unicode": "e676",
+      "unicode_decimal": 58998
+    },
+    {
+      "icon_id": "11078435",
+      "name": "收藏",
+      "font_class": "shoucang2",
+      "unicode": "e65e",
+      "unicode_decimal": 58974
+    },
+    {
+      "icon_id": "15961038",
+      "name": "足迹",
+      "font_class": "zuji",
+      "unicode": "ec24",
+      "unicode_decimal": 60452
+    },
+    {
+      "icon_id": "338385",
+      "name": "收藏",
+      "font_class": "shoucang",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    },
+    {
+      "icon_id": "3050500",
+      "name": "收藏",
+      "font_class": "collection-b",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    }
+  ]
+}

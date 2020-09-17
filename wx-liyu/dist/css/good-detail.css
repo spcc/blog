@@ -1,0 +1,34 @@
+.content {
+  padding-bottom: 2.5rem;
+}
+.content img {
+  width: 100%;
+}
+.toolbar {
+  padding: 0 .5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* color: #ffc347; */
+  
+}
+.toolbar .money {
+  color: #ff5000;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.toolbar .money span {
+  font-size: .6rem;
+}
+.toolbar .button {
+  top: 0;
+  margin-left: .5rem;
+  padding: 0 .8rem;
+  background: #ff5000;
+}
+.toolbar .star {
+  color: #666;
+}
+.toolbar .star.active {
+  color:#ff5000;
+} 
